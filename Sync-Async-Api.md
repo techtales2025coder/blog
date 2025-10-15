@@ -1,7 +1,7 @@
-Sync/Async api code
+# Sync/Async api code
 
 
-
+```java
 import java.util.concurrent.CompletableFuture;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -76,4 +76,5 @@ public class SyncAndAsyncProcess {
        asyncTrigger();
    }
 }
+```
 
